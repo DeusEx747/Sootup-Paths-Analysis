@@ -187,4 +187,7 @@ w3
 2. 结果呈现: 将得分最高的路径作为“关键路径”优先呈现给审计人员。呈现的信
 息应清晰明了，包括路径的综合得分、各分项得分，并能关联回源代码的具体
 行号，方便审计人员直接进行深入分析和代码审查
+# 运行命令
+## java 21
+## mvn clean package -s APP-META/docker-config/environment/common/bin/settings.xml
 
